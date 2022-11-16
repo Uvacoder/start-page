@@ -1,4 +1,4 @@
-export type SearchEngine = 'baidu' | 'google' | 'bing' | 'github';
+export type SearchEngine = 'stackoverflow' | 'google' | 'bing' | 'github';
 
 export type SearchEngineDetail = {
   label: string;
@@ -8,9 +8,9 @@ export type SearchEngineDetail = {
 
 export const searchEngines: SearchEngineDetail[] = [
   {
-    label: 'Baidu',
-    url: 'https://www.baidu.com/s?wd=',
-    value: 'baidu',
+    label: 'Stackoverflow',
+    url: 'https://www.stackoverflow.com/search?q=',
+    value: 'stackoverflow',
   },
   {
     label: 'Google',
